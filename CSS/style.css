@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+
+/*                              SECCIÓN INDEX                            */
+/* HEADER*/
+.navbar {
+  background-color: #f1c5c5 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem; 
+  text-decoration: none;  
+}
+
+.navbar__nav-link {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none; }
+
+.navbar__nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem; 
+}
+
+.navbar__nav-item:hover {
+  background-color: white;
+  border-radius: 3rem; 
+  text-decoration: none;
+  color: black;
+}
+
+
+.navbar__img-logo {
+  width: 100px;
+  border-radius: 3rem; }
+
+
+
+/* ASIDE */
+.aside {
+  background-color: #f1c5c5;
+}
+
+/*
+.aside__img-1{
+  background-color: white;
+  padding: 2rem;
+}*/
+
+.aside__gif-1 {
+
+  background-color: #f1c5c5; 
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  border: 4px solid white;
+}
+
+
+
+ /*     SPAN        */
+
+
+.span__img-bienvenida{
+  display: block;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+
+/*      FOOTER     */
+.footer {
+  background-color: #fadbd6;
+  padding: 20px; }
+
+.footer__estilo-cuatro {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px; }
+
+.footer__div {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center; }
+
+.footer-img {
+  width: 120px;
+  height: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 4rem; }
+
+.menu-hover {
+  color: black; }
+
+.menu-hover:hover {
+  background-color: white;
+  border: 5px solid white;
+  text-decoration: none;
+  color: #f1c5c5; 
+}
+
+.footer-inicial {
+  background-color: #fadbd6; }
+
+.footer-final {
+  background-color: #f4cbc4; }
+
+
+
+
+/*               SECCIÓN SOBRE MÍ            */
+
+
+/*  SECTION   */
+.section__img-presentacion{
+  display: block;
+  margin: auto;
+}
+
+
+  /*               ARTICLE                  */
+
+.article__gif-1{
+  display: flex;
+  float: right;
+  padding: 5em;
+}
+.article__img-1{
+  padding-top: 2em;
+}
+
+
+
+
+/*        MEDIA QUERIES (Responsive)         */
